@@ -1,2 +1,2 @@
 # simple-nodejs-react-app
-Simple implement jenkins pipeline
+Simple implement jenkins pipeline automation
