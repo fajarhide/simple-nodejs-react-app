@@ -34,7 +34,7 @@ pipeline {
                 branch 'production'
             }
             steps {
-                sh './tasks/deploy-staging.sh'
+                sh './tasks/deploy-production.sh'
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
                 sh './tasks/kill.sh'
             }
